@@ -1,0 +1,79 @@
+gnome-logs (3.16.1-0blankon1) tambora; urgency=medium
+
+  * New upstream release
+  * Import from PPA GNOME3-TEAM
+
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 31 May 2015 21:14:56 +0700
+
+gnome-logs (3.16.1-0ubuntu1~vivid1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Tim Lunn <tim@feathertop.org>  Sun, 19 Apr 2015 12:34:05 +1000
+
+gnome-logs (3.16.0-0ubuntu1~vivid1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Tim Lunn <tim@feathertop.org>  Thu, 26 Mar 2015 09:56:15 +1100
+
+gnome-logs (3.15.91-0ubuntu1~vivid1) vivid; urgency=medium
+
+  * New upstream release
+  * Bump build-deps on libglib2.0-dev (>= 2.43.4) and libgtk-3-dev (>= 3.15.7)
+
+ -- Tim Lunn <tim@feathertop.org>  Mon, 09 Mar 2015 15:31:25 +1100
+
+gnome-logs (3.15.3-0ubuntu1~vivid1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Thu, 08 Jan 2015 18:44:27 +1100
+
+gnome-logs (3.14.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - fixes file generation (Closes: #770148)
+
+ -- Andreas Henriksson <andreas@fatal.se>  Thu, 20 Nov 2014 00:50:34 +0100
+
+gnome-logs (3.14.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop debian/patches/revert-appstream-usage.patch, appstream-glib is now in
+    the archive
+  * Update debian/copyright: gnome-logs.appdata.xml.in file has been renamed
+    to org.gnome.Logs.appdata.xml.in
+  * debian/control.in: Standards-Version to 3.9.6 (no further changes)
+
+ -- Laurent Bigonville <bigon@debian.org>  Sun, 19 Oct 2014 23:09:51 +0200
+
+gnome-logs (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update build-dependencies according to configure.ac changes:
+    - bump gtk+ to >= 3.13.4
+  * Add debian/patches/revert-appstream-usage.patch
+    - we don't have appstream-glib in Debian yet... see #752900
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 23 Sep 2014 20:05:17 +0200
+
+gnome-logs (3.12.2-2) unstable; urgency=medium
+
+  * Add CC0 license notice in debian/copyright for appdata xml file.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 16 May 2014 23:35:28 +0200
+
+gnome-logs (3.12.2-1) unstable; urgency=medium
+
+  * Add debian/watch.
+  * New upstream release.
+  * Update debian/copyright with CC-BY-SA (3.0) licensing info
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 16 May 2014 21:08:52 +0200
+
+gnome-logs (3.12.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sat, 26 Apr 2014 13:08:25 +0200
